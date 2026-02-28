@@ -6,7 +6,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(stdssg 
+    src/cli.cpp
     src/main.cpp
+    src/site_builder.cpp
 )
 
 target_compile_options(stdssg PRIVATE -Wall -Wextra)
